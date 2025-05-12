@@ -23,8 +23,8 @@ const getLocalIp = () => {
 const config = {
   mediasoup: {
     worker: {
-      rtcMinPort: 40000,
-      rtcMaxPort: 40100,
+      rtcMinPort: 10000,
+      rtcMaxPort: 10100,
       logLevel: "debug",
       logTags: ["info", "ice", "dtls", "rtp", "srtp", "rtcp"],
     },
