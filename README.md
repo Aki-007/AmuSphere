@@ -47,7 +47,6 @@ Optimized to run smoothly on devices without dedicated GPUs.
 AmuSphere/
 ├── backend/               # Server code
 ├── frontend/              # Client (React + Three.js)
-├── .gitignore
 └── README.md
 
 ````
